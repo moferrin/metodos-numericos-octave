@@ -7,10 +7,10 @@ function derivadaProgresiva
   m=input(" 1. Primera Derivada \n 2. Segunda Derivada  \n");
   switch (m)
     case 1
-      X0=input('X0: ');
-      h=input('h: ');
+      X0=input('Ingrese el punto a evaluar X0: ');
+      h=input('Ingrese el h: ');
       erUsu=input('Error a comparar: ');
-      func=input('Funcion: ');
+      func=input('Escriba la funcion a derivar: ');
       display("La derivada mediante calculo es : \n")
       %Derivo la funcion ingresada
       der=diff(func,x);
@@ -49,9 +49,9 @@ function derivadaProgresiva
      
     case 2
       display("Segunda Derivada");
-      X0=input('X0: ');
-      h=input('h: ');
-      func=input('Funcion: ')
+      X0=input('Ingrese el punto a evaluar X0: ');
+      h=input('Ingrese h: ');
+      func=input('Escriba la funcion a derivar: ')
       erUsu=input('Error a comparar: ')
       display("La segunda derivada mediante calculo es : ")
       %Derivo la funcion ingresada
